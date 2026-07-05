@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.app-header {
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.dashboard-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.widget {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-left: 5px solid #d9534f; /* Emergency Red Accent */
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+/* Form Styles */
+.input-group, .ai-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #c9302c;
+}
+
+/* Action Buttons Grid */
+.action-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.btn-action {
+    flex: 1;
+}
+
+.btn-sos {
+    background-color: #000; /* Black styling matching your wireframe */
+}
+
+/* Contact List */
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dashed #ccc;
+}
+
+.app-footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #777;
+}

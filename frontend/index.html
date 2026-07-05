@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <header class="app-header">
+        <h1>🏥 Emergency</h1>
+        <p>Your AI Emergency & Community Support Assistant</p>
+    </header>
+
+    <main class="dashboard-container">
+
+        <section class="widget search-section">
+            <h2>🔍 Search Hospital</h2>
+            <div class="input-group">
+                <input type="text" id="hospital-search" placeholder="Enter city or area...">
+                <button id="btn-search">Search</button>
+            </div>
+        </section>
+
+        <section class="widget weather-section">
+            <h2>☀️ Weather</h2>
+            <div class="weather-info">
+                <p><strong>Location:</strong> <span id="weather-location">Hyderabad</span></p>
+                <p><strong>Temperature:</strong> <span id="weather-temp">30°C</span></p>
+                <p><strong>Condition:</strong> <span id="weather-condition">Sunny</span></p>
+            </div>
+        </section>
+
+        <section class="widget ai-section">
+            <h2>🤖 AI Assistant</h2>
+            <div class="ai-box">
+                <p>Ask your question:</p>
+                <input type="text" id="ai-input" placeholder="What is your emergency?">
+                <button id="btn-ai">Ask AI</button>
+                <div id="ai-response" class="hidden"></div>
+            </div>
+        </section>
+
+        <section class="widget services-section">
+            <h2>🚑 Emergency Services</h2>
+            <div class="action-buttons">
+                <button class="btn-action">Find Hospitals</button>
+                <button class="btn-action btn-sos">SOS</button>
+                <button class="btn-action">Helpline</button>
+            </div>
+        </section>
+
+        <section class="widget numbers-section">
+            <h2>📞 Emergency Numbers</h2>
+            <ul class="contact-list">
+                <li><span>Police</span> <strong>100</strong></li>
+                <li><span>Ambulance</span> <strong>108</strong></li>
+                <li><span>Fire</span> <strong>101</strong></li>
+                <li><span>Women Help</span> <strong>1091</strong></li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer class="app-footer">
+        <p>&copy; 2026 Emergency</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
